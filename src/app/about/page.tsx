@@ -210,7 +210,7 @@ export default function About() {
                   </li>
                   <li>
                     <strong>Integration with Gworld Investments</strong>:
-                    Facilitated access to Gworld's investments.
+                    Facilitated access to Gworld&apos;s investments.
                   </li>
                   <li>
                     <strong>Reward Optimization</strong>: Enhanced the reward
@@ -254,8 +254,8 @@ export default function About() {
           </h1>
           <div className="my-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              Don't miss out on the opportunity to be part of the next big thing
-              in crypto. Start earning daily rewards and gain access to
+              Don&apos;t miss out on the opportunity to be part of the next big
+              thing in crypto. Start earning daily rewards and gain access to
               exclusive investments with God Token.
             </p>
           </div>
