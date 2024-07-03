@@ -265,7 +265,7 @@ export default function About() {
             role="list"
             className="grid grid-cols-1 gap-[20px] lg:grid-cols-2"
           >
-            <a className="flex gap-4" href="https://twitter.com/gbgccoin">
+            <a className="flex gap-4" href="https://x.com/gworldgod">
               <FontAwesomeIcon
                 icon={faXTwitter}
                 size="1x"
@@ -275,7 +275,7 @@ export default function About() {
             </a>
             <a
               className="flex gap-4"
-              href="https://www.instagram.com/gbgccoin/"
+              href=" https://www.instagram.com/_g.world/"
             >
               <FontAwesomeIcon
                 icon={faInstagram}
@@ -286,7 +286,7 @@ export default function About() {
             </a>
             <a
               className="flex gap-4"
-              href="https://www.facebook.com/profile.php?id=100087517007504"
+              href="https://www.facebook.com/profile.php?id=61561656124722"
             >
               <FontAwesomeIcon
                 icon={faFacebookF}
@@ -295,7 +295,7 @@ export default function About() {
               />
               Follow on Facebook
             </a>
-            <a className="flex gap-4" href="https://t.me/gbgccoin">
+            <a className="flex gap-4" href="https://t.me/+0Rk3y7LzbmZiZmRl">
               <FontAwesomeIcon
                 icon={faTelegram}
                 size="1x"

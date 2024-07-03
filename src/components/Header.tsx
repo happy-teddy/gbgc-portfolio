@@ -134,7 +134,9 @@ function MobileNavigation(
               <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
                 <MobileNavItem href="/about">About US</MobileNavItem>
                 <MobileNavItem href="/faq">FAQ</MobileNavItem>
-                <MobileNavItem href="/gworld">GWorld</MobileNavItem>
+                <MobileNavItem href="https://www.mygoodway.world/">
+                  GWorld
+                </MobileNavItem>
                 <MobileNavItem href="/buynow">Buy Now</MobileNavItem>
               </ul>
             </nav>
@@ -180,7 +182,7 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
       <ul className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
         <NavItem href="/about">About US</NavItem>
         <NavItem href="/faq">FAQ</NavItem>
-        <NavItem href="/gworld">GWorld</NavItem>
+        <NavItem href="https://www.mygoodway.world/">GWorld</NavItem>
         <NavItem href="/buynow">Buy Now</NavItem>
       </ul>
     </nav>
@@ -241,7 +243,7 @@ function Avatar({
     <Link
       href="/"
       aria-label="Home"
-      className={clsx(className, 'pointer-events-auto')}
+      className={clsx(className, 'pointer-events-auto flex items-center gap-3')}
       {...props}
     >
       <Image
@@ -254,6 +256,7 @@ function Avatar({
         )}
         priority
       />
+      <h1 className="text-[30px] font-bold tracking-widest">GOD</h1>
     </Link>
   )
 }
