@@ -11,6 +11,8 @@ import clsx from 'clsx'
 import { Container } from '@/components/Container'
 import avatarImage from '@/images/avatar.jpg'
 
+import './style.css' // Adjust the path to your CSS file
+
 function CloseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg viewBox="0 0 24 24" aria-hidden="true" {...props}>
@@ -256,7 +258,9 @@ function Avatar({
         )}
         priority
       />
-      <h1 className="text-[30px] font-bold tracking-widest">GOD</h1>
+      <h1 className="gradient-text font-[Poppins] text-[35px] font-bold tracking-widest">
+        GOD
+      </h1>
     </Link>
   )
 }
@@ -433,9 +437,9 @@ export function Header() {
             <div className="relative flex gap-4">
               <div className="flex flex-1">
                 {!isHomePage && (
-                  <AvatarContainer>
-                    <Avatar />
-                  </AvatarContainer>
+                  // <AvatarContainer>
+                  <Avatar large className="block h-16 w-16 origin-left" />
+                  // </AvatarContainer>
                 )}
               </div>
               <div className="flex flex-1 justify-end md:justify-center">

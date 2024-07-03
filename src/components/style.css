@@ -1,0 +1,7 @@
+.gradient-text {
+  /* Use whatever gradient values you need */
+  background-image: linear-gradient(to right, #e67d34, #d45346);
+  /* Set background clip to text so gradient applies to text only */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Hide original text */
+}

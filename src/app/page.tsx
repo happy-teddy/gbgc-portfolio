@@ -41,6 +41,17 @@ export default function Home() {
             through our partnership with Gworld.
           </p>
 
+          <div className="mb-[50px] mt-[100px] flex justify-center gap-5">
+            <Button
+              href="/GOD%20Token%20Whitepaper.pdf"
+              variant="secondary"
+              className="group mt-6 w-[150px]"
+            >
+              Whitepaper
+              {/* <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" /> */}
+            </Button>
+          </div>
+
           <h2 className="mb-6 mt-16 text-xl font-semibold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
             Tokenomics
           </h2>
@@ -184,16 +195,6 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mb-[50px] mt-[100px] flex justify-center gap-5">
-            <Button
-              href="/GOD%20Token%20Whitepaper.pdf"
-              variant="secondary"
-              className="group mt-6 w-[150px]"
-            >
-              Whitepaper
-              {/* <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" /> */}
-            </Button>
-          </div>
           <div className="mt-6 flex gap-6">
             <a href="https://x.com/gworldgod">
               <FontAwesomeIcon
